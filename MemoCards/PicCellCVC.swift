@@ -9,8 +9,7 @@
 import UIKit
 
 class PicCellCVC: UICollectionViewCell {
-    
+    public var card: Card!
+    public var isChoosed: Bool = false
     @IBOutlet weak var image: UIImageView!
-    
-    
 }

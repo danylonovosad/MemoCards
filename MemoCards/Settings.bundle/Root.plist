@@ -18,7 +18,31 @@
 			<key>Title</key>
 			<string>Version</string>
 			<key>Key</key>
-			<string></string>
+			<string>appVersion</string>
+			<key>DefaultValue</key>
+			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Language</string>
+			<key>Key</key>
+			<string>lang_preference</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Titles</key>
+			<array>
+				<string>English</string>
+				<string>German</string>
+				<string>Ukrainian</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
 		</dict>
 		<dict>
 			<key>Type</key>
