@@ -48,7 +48,7 @@ final class ScoreVC: UIViewController {
     //MARK: - Private Functions
     private func shareApp(){
         let someText:String = "Hello! Let me introduce to you a beautiful game made by SoftServe ITA student. For a small donation on this card(5375 4141 0051 0600) he can install it on your device. You can ask him about that game on his facebook page: "
-        let objectsToShare:URL = URL(string: "http://www.facebook.com/danylo.novosad")!
+        let objectsToShare:URL = URL(string: "http://www.facebook.com/novosad.danylo")!
         let sharedObjects:[AnyObject] = [someText as AnyObject, objectsToShare as AnyObject]
         let activityViewController = UIActivityViewController(activityItems : sharedObjects, applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = self.view
