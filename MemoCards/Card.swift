@@ -18,7 +18,7 @@ class Card {
         self.assetName = assetName
     }
     
-    static func generateCards(size: Int) -> [Card] {
+  internal static func generateCards(size: Int) -> [Card] {
         var cardArray = [Card]()
         for i in 0..<Int(size/2) {
             let card1 = Card(assetName: "Card\(i)")
@@ -31,7 +31,7 @@ class Card {
         return cardArray
     }
     
-    func compareWith(card: Card) -> Bool {
+  internal func compareWith(card: Card) -> Bool {
         return self.assetName == card.assetName
     }
 }

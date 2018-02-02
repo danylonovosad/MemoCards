@@ -10,11 +10,16 @@
 		6F37D849200CE6C00029CD34 /* PicCellCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F37D848200CE6C00029CD34 /* PicCellCVC.swift */; };
 		6F37D84B200E4ABE0029CD34 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F37D84A200E4ABE0029CD34 /* Settings.bundle */; };
 		6F37D84D200FC94C0029CD34 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F37D84C200FC94C0029CD34 /* Card.swift */; };
+		6F97F7E92023491A00A0782A /* ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F97F7E82023491A00A0782A /* ScoreVC.swift */; };
+		6F97F7EC2023A92F00A0782A /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F97F7EA2023A92F00A0782A /* ResultCell.swift */; };
+		6F97F7ED2023A92F00A0782A /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F97F7EB2023A92F00A0782A /* ResultCell.xib */; };
 		6FF0CCE01FFF9F3F009A20AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0CCDF1FFF9F3F009A20AF /* AppDelegate.swift */; };
 		6FF0CCE21FFF9F3F009A20AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0CCE11FFF9F3F009A20AF /* ViewController.swift */; };
 		6FF0CCE51FFF9F3F009A20AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0CCE31FFF9F3F009A20AF /* Main.storyboard */; };
 		6FF0CCE71FFF9F3F009A20AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0CCE61FFF9F3F009A20AF /* Assets.xcassets */; };
 		6FF0CCEA1FFF9F3F009A20AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0CCE81FFF9F3F009A20AF /* LaunchScreen.storyboard */; };
+		6FFACB712020E02400432250 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFACB702020E02400432250 /* Game.swift */; };
+		6FFACB742020EDA500432250 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FFACB722020EDA500432250 /* DataModel.xcdatamodeld */; };
 		6FFBAE8520061609006B9CE4 /* ChoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAE8420061609006B9CE4 /* ChoiceVC.swift */; };
 		6FFBAE8B200CE00C006B9CE4 /* CardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAE8A200CE00C006B9CE4 /* CardsVC.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +28,9 @@
 		6F37D848200CE6C00029CD34 /* PicCellCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCellCVC.swift; sourceTree = "<group>"; };
 		6F37D84A200E4ABE0029CD34 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		6F37D84C200FC94C0029CD34 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6F97F7E82023491A00A0782A /* ScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreVC.swift; sourceTree = "<group>"; };
+		6F97F7EA2023A92F00A0782A /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		6F97F7EB2023A92F00A0782A /* ResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
 		6FF0CCDC1FFF9F3F009A20AF /* MemoCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF0CCDF1FFF9F3F009A20AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF0CCE11FFF9F3F009A20AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +38,8 @@
 		6FF0CCE61FFF9F3F009A20AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FF0CCE91FFF9F3F009A20AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FF0CCEB1FFF9F3F009A20AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFACB702020E02400432250 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		6FFACB732020EDA500432250 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		6FFBAE8420061609006B9CE4 /* ChoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceVC.swift; sourceTree = "<group>"; };
 		6FFBAE8A200CE00C006B9CE4 /* CardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +58,8 @@
 		6F37D84E200FD26A0029CD34 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6F37D84C200FC94C0029CD34 /* Card.swift */,
+				6F97F7EA2023A92F00A0782A /* ResultCell.swift */,
+				6F97F7EB2023A92F00A0782A /* ResultCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -74,13 +85,17 @@
 			children = (
 				6F37D84E200FD26A0029CD34 /* Cells */,
 				6FF0CCDF1FFF9F3F009A20AF /* AppDelegate.swift */,
+				6F37D84C200FC94C0029CD34 /* Card.swift */,
 				6FF0CCE11FFF9F3F009A20AF /* ViewController.swift */,
+				6FF0CCE81FFF9F3F009A20AF /* LaunchScreen.storyboard */,
 				6FF0CCE31FFF9F3F009A20AF /* Main.storyboard */,
+				6F97F7E82023491A00A0782A /* ScoreVC.swift */,
 				6F37D848200CE6C00029CD34 /* PicCellCVC.swift */,
 				6FFBAE8A200CE00C006B9CE4 /* CardsVC.swift */,
+				6FFACB702020E02400432250 /* Game.swift */,
 				6FFBAE8420061609006B9CE4 /* ChoiceVC.swift */,
 				6FF0CCE61FFF9F3F009A20AF /* Assets.xcassets */,
-				6FF0CCE81FFF9F3F009A20AF /* LaunchScreen.storyboard */,
+				6FFACB722020EDA500432250 /* DataModel.xcdatamodeld */,
 				6F37D84A200E4ABE0029CD34 /* Settings.bundle */,
 				6FF0CCEB1FFF9F3F009A20AF /* Info.plist */,
 			);
@@ -150,6 +165,7 @@
 				6FF0CCEA1FFF9F3F009A20AF /* LaunchScreen.storyboard in Resources */,
 				6FF0CCE71FFF9F3F009A20AF /* Assets.xcassets in Resources */,
 				6FF0CCE51FFF9F3F009A20AF /* Main.storyboard in Resources */,
+				6F97F7ED2023A92F00A0782A /* ResultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFBAE8520061609006B9CE4 /* ChoiceVC.swift in Sources */,
+				6FFACB742020EDA500432250 /* DataModel.xcdatamodeld in Sources */,
 				6F37D84D200FC94C0029CD34 /* Card.swift in Sources */,
+				6FFACB712020E02400432250 /* Game.swift in Sources */,
+				6F97F7E92023491A00A0782A /* ScoreVC.swift in Sources */,
 				6FF0CCE21FFF9F3F009A20AF /* ViewController.swift in Sources */,
 				6F37D849200CE6C00029CD34 /* PicCellCVC.swift in Sources */,
 				6FF0CCE01FFF9F3F009A20AF /* AppDelegate.swift in Sources */,
+				6F97F7EC2023A92F00A0782A /* ResultCell.swift in Sources */,
 				6FFBAE8B200CE00C006B9CE4 /* CardsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +370,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FFACB722020EDA500432250 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FFACB732020EDA500432250 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 6FFACB732020EDA500432250 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6FF0CCD41FFF9F3F009A20AF /* Project object */;
 }

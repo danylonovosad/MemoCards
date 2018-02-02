@@ -14,9 +14,10 @@ class ChoiceVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        pickerValue = (Int (difPickerData[row]))!   // костиль виправити "!" || хоча не дуже костиль тому що пікер завжди в якомусь положені так що все ок ніби
-        print(pickerValue)
-    
+        guard let integer = Int(difPickerData[row]) else {
+            return
+        }
+        pickerValue = integer
     }
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -29,8 +30,10 @@ class ChoiceVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return difPickerData[row]
     }
+    @IBAction func scoreBtn(_ sender: UIButton) {
+          performSegue(withIdentifier: "toScore", sender: self)
+    }
     @IBAction func goBtn(_ sender: UIButton) {
-     print(pickerValue)
         performSegue(withIdentifier: "toGame", sender: self)
     }
     
@@ -41,7 +44,7 @@ class ChoiceVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         super.viewDidLoad()
         self.difPicker.delegate = self
         self.difPicker.dataSource = self
-        difPickerData = ["6","12","18","22"]
+        difPickerData = ["6","12","18","24"]
         // Do any additional setup after loading the view.
     }
 
